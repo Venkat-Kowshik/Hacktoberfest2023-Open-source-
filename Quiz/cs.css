@@ -1,0 +1,98 @@
+/* Use a custom font for the entire document */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Center align all H1 headings */
+h1 {
+    text-align: center;
+    font-size: 48px; /* Increase font size of h1 */
+    color: white; /* Set text color of h1 */
+    text-transform: uppercase; /* Uppercase all text in h1 */
+}
+
+/* Remove underline from the element with the ID "title" */
+#title {
+    text-decoration: none;
+    font-size: 24px; /* Decrease font size of title */
+    color:Red; /* Set text color of title */
+    text-shadow: 1px 1px #FF69B4; /* Add a text shadow to title */
+}
+
+/* Hide the element with the ID "quiz" */
+#quiz {
+    display: none;
+}
+
+/* Style for buttons */
+.button {
+    border: 2px solid;
+    border-radius: 5px;
+    width: 80px; /* Increase button width */
+    padding: 10px;
+    position: relative;
+    float: right;
+    background-color:darkseagreen; /* Set background color of buttons */
+    color: #1E90F; /* Set text color of buttons */
+    font-weight: bold; /* Set font weight of buttons */
+    margin: 0 10px; /* Increase margin between buttons */
+    text-transform: uppercase; /* Uppercase all text in buttons */
+    box-shadow: 2px 2px #FFA07A; /* Add a box shadow to buttons */
+    transition: all 0.2s ease; /* Add a transition effect to buttons */
+}
+
+/* Style for active button */
+.button.active {
+    background-color: #1E90FF; /* Change background color of active button */
+    color: #FFFFFF; /* Change text color of active button */
+    box-shadow: 2px 2px #FF69B4; /* Change box shadow of active button */
+}
+
+/* Style for all buttons */
+button {
+    position: relative;
+    float: right;
+    border: none;
+}
+
+/* Set the color of anchor tags inside elements with the class "button" */
+.button a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+}
+
+/* Set the width and margin of the container */
+#container {
+    width: 60%; /* Decrease container width */
+    margin: 50px auto; /* Add margin on top and bottom */
+    padding: 50px; /* Increase padding on all sides */
+    background-color: #1E90FF; /* Change background color of container */
+    border: 4px solid #FF69B4; /* Change border color of container */
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-image: url('C:\Users\kowshik\Study\Projects\Dynamic Js quiz');
+    background-size:cover;
+    box-shadow: 5px 5px #FFA07A; /* Change box shadow of container */
+}
+
+/* Remove bullet points from all unordered lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Hide the element with the ID "prev" */
+#prev {
+    display: none;
+}
+
+/* Style the element with the ID "start" */
+#start {
+    display: none;
+    width: 120px; /* Increase width of start button */
+    padding: 20px; /* Increase padding on all sides */
+    background-color: #FF1493; /* Change background color of start button */
+    color: #FFFFFF;
+}
